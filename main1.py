@@ -246,5 +246,29 @@ if "age" in dict_dog:
   del dict_dog["age"]
 print(dict_dog)
 
+# sets
+
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+intersect = a & b
+print(intersect)
+
+union = a | b
+print(union)
+
+difference = a - b
+print(difference)
+
+print(a.isdisjoint(b))
+print(a.issubset(b))
+print(a.issuperset(b))
+
+print(a.union(b))
+print(a.intersection(b))
+print(a.difference(b))
+print(a.symmetric_difference(b))
+
+
 # Reverse List
 # Palindrom
